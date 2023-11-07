@@ -1,28 +1,26 @@
-# JWT Token Generator and Validator
-
-![JWT Token](jwt_token.png)
+# Generador y Validador de Tokens JWT
 
 ---
 
-## Overview
+## Resumen
 
-This repository provides a simple and secure tool for generating and validating JSON Web Tokens (JWTs). JWTs are widely used for securely transmitting information between parties in a web application. Whether you need to create JWTs for user authentication or validate them for authorization, this project has you covered.
-
----
-
-## Features
-
-- **JWT Generation:** Create JWTs with custom payload data.
-- **JWT Validation:** Verify the authenticity and integrity of JWTs.
-- **Custom Claims:** Easily add custom claims to your tokens.
-- **Expiration:** Set expiration times for tokens.
-- **Flexible Configuration:** Fine-tune token parameters to suit your needs.
+Este repositorio proporciona una herramienta simple y segura para generar y validar Tokens JSON Web (JWT). Los Tokens JWT son ampliamente utilizados para transmitir información de manera segura entre partes en una aplicación web. Ya sea que necesites crear Tokens JWT para autenticación de usuarios o validarlos para la autorización, este proyecto tiene todo lo que necesitas.
 
 ---
 
-## Installation
+## Características
 
-You can install this package using [npm](https://www.npmjs.com/):
+- **Generación de JWT:** Crea Tokens JWT con datos personalizados.
+- **Validación de JWT:** Verifica la autenticidad e integridad de los Tokens JWT.
+- **Reclamos Personalizados:** Agrega fácilmente reclamos personalizados a tus Tokens.
+- **Expiración:** Establece tiempos de vencimiento para los Tokens.
+- **Configuración Flexible:** Ajusta los parámetros de los Tokens para satisfacer tus necesidades.
+
+---
+
+## Instalación
+
+Puedes instalar este paquete utilizando [npm](https://www.npmjs.com/):
 
 ```bash
-npm install jwt-token-generator
+npm install generador-token-jwt
